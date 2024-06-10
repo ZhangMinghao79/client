@@ -1,0 +1,13 @@
+mqtt:
+  host: "150.109.157.35"
+  port: 1883
+  username: "mica"
+  password: "mica"
+  keepalive: 60
+  topic: "my/mqtt/topic"
+  nameId: "1781171649786286080"
+  launcherId : "a8ba83fce4239164fb3349f96ac00cb39322c3b9dc849b72e6c4bb6a2abbd6bb"
+  chia_bin_path : '/root/chia-gigahorse-farmer/chia.bin'
+  machine_type : 'HeartesterMachine' #收割机 HeartesterMachine 节点机 NodeMachine 解压机 DecompressionMachine (如果既是收割机也是节点机 HeartesterMachine，NodeMachine这样配置使用逗号隔开)
+  friendly_name : 'wangxin'
+
